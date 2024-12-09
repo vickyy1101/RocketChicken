@@ -1,0 +1,149 @@
+@media screen and (max-width: 768px) {
+
+    .header {
+        padding: 2rem 5%; /
+    }
+
+    
+    .logo {
+        font-size: 2.5rem; 
+    }
+
+    
+    .navbar a {
+        font-size: 1.6rem; 
+        margin-left: 2rem; 
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    
+    .home {
+        flex-direction: column; 
+        gap: 5rem; 
+    }
+
+    .home-content {
+        align-items: center; 
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 5rem; 
+    }
+
+    .home-content h3 {
+        font-size: 3rem; 
+    }
+
+    .home-content p {
+        font-size: 1.4rem; 
+    }
+
+    .home-img img {
+        width: 70vw; 
+    }
+
+    
+    .gradient-btn {
+        font-size: 1.6rem; 
+        padding: 1rem 2rem; 
+    }
+    
+    .social-icon a {
+        font-size: 2.5rem; 
+        padding: 0.8rem; 
+    }
+  
+    .menu-box {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    }
+
+    .menu-card {
+        padding: 3rem 1.5rem; 
+    }
+
+    .menu-card h3 {
+        font-size: 2.5rem; 
+    }
+
+    .menu-card p {
+        font-size: 1.4rem;
+    }
+
+    
+    .contact form {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 80%; 
+        font-size: 1.6rem; 
+        padding: 1.5rem; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .header {
+        padding: 1.5rem 3%; 
+    }
+
+    .logo {
+        font-size: 2rem; 
+    }
+
+    .navbar a {
+        font-size: 1.4rem; 
+        margin-left: 1.5rem;
+    }
+
+    .home {
+        gap: 3rem; 
+    }
+
+    .home-content h1 {
+        font-size: 4.5rem; 
+
+    .home-content h3 {
+        font-size: 2.5rem; 
+    }
+
+    .home-content p {
+        font-size: 1.3rem; 
+    }
+
+    .home-img img {
+        width: 80vw; 
+    }
+
+    .social-icon a {
+        font-size: 2rem; 
+    }
+
+    .menu-box {
+        grid-template-columns: 1fr; 
+    }
+
+    .menu-card {
+        padding: 2rem 1rem; 
+    }
+
+    .menu-card h3 {
+        font-size: 2rem;
+    }
+
+    .menu-card p {
+        font-size: 1.3rem; 
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 90%; 
+    }
+}
